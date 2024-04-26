@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form Exercise</title>
+</head>
+
+<body>
+  <form>
+    <div>
+      <label for="email">Email address</label>
+      <input type="email" name="email" id="email" autocomplete="email">
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" autocomplete="current-password">
+    </div>
+
+    <div>
+      <label for="github_username">Github Username</label>
+      <input type="text" name="github_username" id="github_username" autocomplete="username">
+    </div>
+
+    <fieldset>
+      <legend>Plan</legend>
+
+      <div>
+        <input type="radio" name="plan" id="free" checked>
+        <label for="free">Free</label>
+      </div>
+
+      <div>
+        <input type="radio" name="plan" id="pro">
+        <label for="pro">Pro</label>
+      </div>
+
+      <div>
+        <input type="radio" name="plan" id="enterprise">
+        <label for="enterprise">Enterprise</label>
+      </div>
+
+    </fieldset>
+
+    <div>
+      <input type="checkbox" name="remember" id="remember" checked>
+      <label for="remember">Remember me?</label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
